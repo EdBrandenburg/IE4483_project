@@ -7,7 +7,7 @@ Transfer learning with a pretrained ResNet-18 (PyTorch) to classify cat and dog 
 1. **Open the notebook in Colab**: colab.research.google.com → File → Open notebook → GitHub tab → paste this repo's URL → select the ipynb file (or just download it from this repo and import in colab)
 2. **Switch to GPU**: Runtime → Change runtime type → **T4 GPU** → Save. **Very important, train way faster**
 3. **Get the dataset in the right place**:
-   - Download `datasets.zip` from the assignment's Drive link or this repo to your computer.
+   - Download `datasets.zip` from the assignment's Drive link to your computer.
    - Open the Files panel in Colab (folder icon, left) and drag the zip into `/content`.
    - **Wait until the upload circle disappears.**
    - Expected counts: 10,000 images per class in `train`, 2,500 per class in `val`, 500 in `test`.
